@@ -12,13 +12,13 @@ contract Require
         require(msg.value != 0, "Msg.value must not be zero");
         orderList[msg.sender] = msg.value;
 
-        if(msg.value != 0)
-        {
-            orderList[msg.sender] = msg.value;
-        }
-        else
-        {
-            revert("Msg.value must not be zero");
-        }
+        // if(msg.value != 0)
+        // {
+        //     orderList[msg.sender] = msg.value;
+        // }
+        // else
+        // {
+        //     revert("Msg.value must not be zero");
+        // }
     }
 }
