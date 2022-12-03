@@ -6,8 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_premium",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "block1",
+				"name": "getCarPrice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +36,33 @@
 			},
 			{
 				"inputs": [],
-				"name": "block2",
+				"name": "getDoor",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getModel",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -33,64 +75,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "block3",
+				"name": "getSeller",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "address",
 						"name": "",
 						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "block4",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "block5",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "block6",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "block7",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -110,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BlockProperty.sol": "BlockProperty"
+			"contracts/inheritance/MultiInheritance.sol": "Benz"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -124,11 +114,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BlockProperty.sol": {
-			"keccak256": "0x945ee77fb4152652cb18ee691d23bf116deca6401f4773992aa77a6c5790d2b8",
+		"contracts/inheritance/MultiInheritance.sol": {
+			"keccak256": "0x5db6778b8bf8d133f0818ccaeb91b1f4c2ce06691ac0795f4766d6eb67b16d08",
 			"urls": [
-				"bzz-raw://a61684a57c46cd8ceac94515fd094bf62b976f299c83b838094fb329ed4dc16c",
-				"dweb:/ipfs/QmeWMZvSMh6k8iuYja2BBM7PqWhAt5dra39y1Aa6v8EhEa"
+				"bzz-raw://fa9443461984ea8e39e3da457b16b31e50b753bfefe9ce2ba56f2953ea1c39a1",
+				"dweb:/ipfs/QmZ6WuugncCF8LZExzh3DwhjEb2NFkniZzCwhU7xQStqS2"
 			]
 		}
 	},

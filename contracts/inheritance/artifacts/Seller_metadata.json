@@ -8,25 +8,25 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "plusData",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_seller",
+						"type": "address"
 					}
 				],
 				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getSeller",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/TryCatch.sol": "Math"
+			"contracts/inheritance/MultiInheritance.sol": "Seller"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -57,11 +57,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/TryCatch.sol": {
-			"keccak256": "0x67150731a0b00309406556e0e7340932283b23158b67c3eb1be5cbdf2c6abe28",
+		"contracts/inheritance/MultiInheritance.sol": {
+			"keccak256": "0x5db6778b8bf8d133f0818ccaeb91b1f4c2ce06691ac0795f4766d6eb67b16d08",
 			"urls": [
-				"bzz-raw://886563fa8fe89dd21a33919b6b24ccd9a253e1816d8e0a8ac787eba28ead1295",
-				"dweb:/ipfs/QmXBRfZShfTRLvJ8AULGudJ1WKeGLNxDrmSRfKUTDLZWV4"
+				"bzz-raw://fa9443461984ea8e39e3da457b16b31e50b753bfefe9ce2ba56f2953ea1c39a1",
+				"dweb:/ipfs/QmZ6WuugncCF8LZExzh3DwhjEb2NFkniZzCwhU7xQStqS2"
 			]
 		}
 	},
